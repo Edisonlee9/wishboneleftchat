@@ -1,0 +1,25 @@
+/* 1025px */
+@media (max-width: 1025px) {}
+
+/* 975px */
+@media (max-width: 975px) {  
+  .header .container .menu{
+    display: none;
+  }
+  
+  .header .container .burger {
+    display: block;
+  }
+}
+
+/* 770px */
+@media (max-width: 770px) {}
+
+/* 525px */
+@media (max-width: 525px) {}
+
+/* 430px */
+@media (max-width: 430px) {}
+
+/* 375px */
+@media (max-width: 375px) {}

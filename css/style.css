@@ -1,0 +1,96 @@
+/* Fonts */
+@font-face {
+  src: url(../fonts/Poppins-Regular.ttf);
+  font-family: 'Poppins';
+}
+
+/* Normolize */
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #403E3B;
+  --dark: #1B1A1A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: 0;
+  cursor: pointer;
+}
+
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+.header {
+  padding: 22px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .container .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.header .container .menu li .link {
+  font-size: 15px;
+  color: var(--dark);
+  transition: 0.3s;
+  padding: 10px;
+  border-radius: 14px;
+}
+
+.header .container .menu li .link:hover {
+  color: var(--white);
+  background: var(--dark);
+}
+
+.header .container .menu .btn {
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  color: var(--white);
+  background: var(--dark);
+  border-radius: 14px;
+}
+
+.header .container .burger {
+  font-size: 30px;
+  color: var(--dark);
+  display: none;
+}
