@@ -183,7 +183,7 @@ body {
   gap: 135px;
 }
 
-.firm .container .titles .site-title{
+.firm .container .titles .site-title {
   width: 145px;
 }
 
@@ -214,4 +214,51 @@ body {
   font-size: 14px;
   line-height: 14px;
   color: var(--grey);
+}
+
+/* House */
+.house{
+  padding: 250px 0;
+  background: url(../images/house-bg.png) no-repeat center / cover;
+}
+
+/* Staircase */
+.staircase {
+  padding: 250px 0;
+  background: url(../images/staircase-bg.png) no-repeat center / cover;
+}
+
+/* Swirling */
+.swirling{
+  padding: 250px 0;
+  background: url(../images/swirling-bg.png) no-repeat center / cover;
+}
+
+.staircase .container .text,
+.house .container .text{
+  max-width: 285px;
+  margin-left: auto;
+}
+
+.swirling .container .text{
+  max-width: 285px;
+}
+
+.swirling .container .text h4,
+.staircase .container .text h4,
+.house .container .text h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--grey);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.swirling .container .text p,
+.staircase .container .text p,
+.house .container .text p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #645c55;
 }
