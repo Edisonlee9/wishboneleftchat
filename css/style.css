@@ -217,7 +217,7 @@ body {
 }
 
 /* House */
-.house{
+.house {
   padding: 250px 0;
   background: url(../images/house-bg.png) no-repeat center / cover;
 }
@@ -229,18 +229,18 @@ body {
 }
 
 /* Swirling */
-.swirling{
+.swirling {
   padding: 250px 0;
   background: url(../images/swirling-bg.png) no-repeat center / cover;
 }
 
 .staircase .container .text,
-.house .container .text{
+.house .container .text {
   max-width: 285px;
   margin-left: auto;
 }
 
-.swirling .container .text{
+.swirling .container .text {
   max-width: 285px;
 }
 
@@ -261,4 +261,123 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #645c55;
+}
+
+/* customers */
+.customers {
+  background: var(--grey);
+}
+
+.customers .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customers .container .left h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ECE7E4;
+}
+
+/* .customers  */
+
+/* project */
+.project {
+  padding: 100px 0;
+  background: #F7F7F7;
+}
+
+.project .container .uptitle {
+  font-size: 39px;
+  color: var(--dark);
+  line-height: 42px;
+}
+
+.project .container .text {
+  font-size: 24px;
+  color: var(--grey);
+  line-height: 30px;
+  max-width: 581px;
+}
+
+.project .container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 40px 0;
+}
+
+.project .container .wrapper .card {
+  width: 380px;
+  height: 470px;
+  background: url(../images/card-1.png) no-repeat center / cover;
+}
+
+.project .container .wrapper .card .effect {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.project .container .wrapper .card .effect .text {
+  transform: translateY(-300%);
+  transition: 0.3s;
+}
+
+.project .container .wrapper .card:hover .effect .text {
+  transform: translateY(0);
+}
+
+.project .container .wrapper .card .effect p {
+  font-size: 14px;
+  color: var(--grey);
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.project .container .wrapper .card .effect h3 {
+  font-size: 23px;
+  line-height: 30px;
+  color: var(--grey);
+  font-weight: 400;
+}
+
+.project .container .wrapper .card .effect .btn {
+  padding: 11px 20px;
+  color: var(--white);
+  background: var(--dark);
+  border-radius: 14px;
+}
+
+.project .container .wrapper .card .effect .btn {
+  transform: translateY(300%);
+  transition: 0.3s;
+}
+
+.project .container .wrapper .card:hover .effect .btn {
+  transform: translateY(0);
+}
+
+.project .container .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project .container .btns .btn {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  padding: 11px 20px;
+  border-radius: 14px;
+  transition: 0.2s;
+}
+.project .container .btns .btn:hover {
+  color: var(--white);
+  background: var(--dark);
 }
