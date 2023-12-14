@@ -304,7 +304,8 @@ body {
 .project .container .wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 16px;
   margin: 40px 0;
 }
@@ -369,6 +370,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .project .container .btns .btn {
   font-size: 16px;
   line-height: 24px;
@@ -377,7 +379,84 @@ body {
   border-radius: 14px;
   transition: 0.2s;
 }
+
 .project .container .btns .btn:hover {
   color: var(--white);
   background: var(--dark);
+}
+
+/* Team */
+.team {
+  padding: 100px 0;
+}
+
+.team .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.team .container .left {
+  width: 60%;
+}
+
+.team .container .left .title {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  color: var(--grey);
+}
+
+.team .container .left .text {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--grey);
+  max-width: 360px;
+  margin: 15px 0 30px;
+}
+
+.team .container .left .btn {
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+  border-radius: 14px;
+  transition: 0.2s;
+}
+
+.team .container .left .btn:hover {
+  background: var(--dark);
+  color: var(--white);
+}
+
+.team .container .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 55px;
+}
+
+.team .container .right .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 280px;
+}
+
+.team .container .right .user .text h4 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--dark);
+}
+
+.team .container .right .user .text p {
+  font-size: 14px;
+  line-height: 14px;
+  color: #645C55;
 }
