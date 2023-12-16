@@ -1,5 +1,21 @@
 /* 1025px */
-@media (max-width: 1025px) {}
+@media (max-width: 1025px) {
+  .team .container .left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .team .container .left .text {
+    margin: 15px auto;
+  }
+
+  .team .container .right {
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+}
 
 /* 975px */
 @media (max-width: 975px) {
@@ -51,6 +67,15 @@
   }
 }
 
+/* 910px */
+@media (max-width: 910px) {
+  .customers .container {
+    text-align: center;
+    justify-content: center;
+    gap: 35px;
+  }
+}
+
 /* 770px */
 @media (max-width: 770px) {
   .hero .left {
@@ -95,6 +120,23 @@
   .project .container .wrapper .card {
     width: 280px;
     height: 370px
+  }
+
+  .touch {
+    padding: 60px 0;
+  }
+
+  .touch .container .left h1 {
+    font-size: 30px;
+    max-width: 400px;
+  }
+}
+
+/* 596 */
+@media(max-width:596px) {
+  .touch .container {
+    text-align: center;
+    justify-content: center;
   }
 }
 
@@ -153,7 +195,12 @@
     font-size: 16px;
   }
 
-  
+  .footer .container {
+    text-align: center;
+    justify-content: center;
+  }
+
+
 }
 
 /* 430px */
@@ -161,11 +208,24 @@
   .hero .left {
     padding: 40px 15px;
   }
+
+  .touch .container .left h1 {
+    font-size: 27px;
+  }
 }
 
 /* 375px */
 @media (max-width: 375px) {
   .hero .left .title {
     font-size: 40px;
+  }
+
+  .customers {
+    padding: 40px 0;
+  }
+
+  .customers .container .right {
+    justify-content: center;
+    gap: 25px;
   }
 }
